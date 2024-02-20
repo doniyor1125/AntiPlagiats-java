@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SayhunDomlaDastur</string>
+    <string-array name="guruh">
+        <item>MI22-1</item>
+        <item>MI22-2</item>
+        <item>MI22-3</item>
+        <item>MI22-4</item>
+        <item>MI22-5</item>
+        <item>MI22-6</item>
+        <item>IMI22-7</item>
+    </string-array>
+    <string-array name="fan">
+        <item>Axborot xavfsizligi</item>
+        <item>Dasturlash tillari</item>
+        <item>Kompyuter ta`minoti</item>
+        <item>Web texnologiya</item>
+        <item>Tarmoq texnologiyasi</item>
+
+    </string-array>
+</resources>

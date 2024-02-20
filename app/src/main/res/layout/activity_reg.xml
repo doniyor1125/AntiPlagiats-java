@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B4C87"
+    tools:context=".RegActivity">
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="60dp"
+        android:gravity="center"
+        android:text="RO'YHATDAN O'TISH"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/txt"
+        android:layout_marginStart="35dp"
+        android:enabled="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:background="@color/white"
+        android:hint="90-123-45-67"
+        android:gravity="center"
+        android:inputType="phone"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:shadowRadius="8"/>
+
+    <EditText
+        android:visibility="gone"
+        android:id="@+id/pass1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/btn"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:gravity="center"
+        android:background="@color/white"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:textSize="24sp"
+        android:enabled="true"
+        android:backgroundTint="#091B8A"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="100dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tasdiqlash kodni olish"/>
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/sign"
+        android:textSize="24sp"
+        android:backgroundTint="#131C51"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="100dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/pass1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KIRISH"/>
+
+    <ProgressBar
+        android:id="@+id/idPBLoading"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="20dp"
+        android:visibility="gone"/>
+
+</RelativeLayout>
